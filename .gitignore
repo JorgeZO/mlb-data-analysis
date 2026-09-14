@@ -1,0 +1,14 @@
+# Entorno local y credenciales
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+# Exportación auxiliar para Workbench; reproducible desde el notebook
+data/processed/*.json
+# Archivos temporales de Power BI
+*.pbix.autorecovery
